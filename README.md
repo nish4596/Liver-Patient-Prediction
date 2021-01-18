@@ -23,4 +23,4 @@ Columns:
 
 
 ## Models
-Built 7 classification models and evaluated their performances. Finally selected the Random Classifier as the final model since it had better performance in terms of Balanced Accuracy score, Recall and AUC. 
+Built 7 classification models (Logistic Regression, Naive Bayes, MLP, SVC, KNN, Decision Tree, Random Forest, XGBoost) and evaluated their performances. Finally selected the Random Classifier as the final model since it had better performance in terms of Balanced Accuracy score, Recall and AUC. 
