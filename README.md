@@ -9,14 +9,18 @@ Any patient whose age exceeded 89 is listed as being of age "90".
 
 Columns:
 
-Age of the patient
-Gender of the patient
-Total Bilirubin
-Direct Bilirubin
-Alkaline Phosphotase
-Alamine Aminotransferase
-Aspartate Aminotransferase
-Total Protiens
-Albumin
-Albumin and Globulin Ratio
-Dataset: field used to split the data into two sets (patient with liver disease, or no disease)
+- Age of the patient
+- Gender of the patient
+- Total Bilirubin
+- Direct Bilirubin
+- Alkaline Phosphotase
+- Alamine Aminotransferase
+- Aspartate Aminotransferase
+- Total Protiens
+- Albumin
+- Albumin and Globulin Ratio
+- Dataset: field used to split the data into two sets (patient with liver disease, or no disease)
+
+
+## Models
+Built 7 classification models and evaluated their performances. Finally selected the Random Classifier as the final model since it had better performance in terms of Balanced Accuracy score, Recall and AUC. 
